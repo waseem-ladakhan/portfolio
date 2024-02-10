@@ -449,7 +449,7 @@ body {
 .skills .section-text { margin-block-end: 70px; }
 
 .skills-list {
-  display: grid;
+  /* display: grid; */
   gap: 25px;
 }
 
