@@ -68,12 +68,12 @@
             <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
-          </li>
+          </li> -->
 
           <li>
-            <a href="#" class="btn btn-primary">Download CV</a>
+            <a href="#" id="link"  onclick="DownloadFile()" class="btn btn-primary">Download CV</a>
           </li>
 
         </ul>
@@ -102,7 +102,7 @@
               class="img-cover">
 
             <div class="elem elem-1">
-              <p class="elem-title">12</p>
+              <p class="elem-title">2+</p>
 
               <p class="elem-text">Years of Success</p>
             </div>
@@ -438,7 +438,7 @@ feel free to contact creative.
                     <h3 class="contact-item-title">Address</h3>
 
                     <address class="contact-item-link">
-                      20, London, United Kingdom
+                      Saundatti, Karantaka India 591110
                     </address>
                   </div>
 
@@ -453,7 +453,7 @@ feel free to contact creative.
                   <div>
                     <h3 class="contact-item-title">Email</h3>
 
-                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">ladakhanw@gmail.com</a>
                   </div>
 
                 </li>
@@ -467,7 +467,7 @@ feel free to contact creative.
                   <div>
                     <h3 class="contact-item-title">Phone</h3>
 
-                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
+                    <a href="tel:+917259149649" class="contact-item-link">+91-7259149649</a>
                   </div>
 
                 </li>
@@ -489,7 +489,7 @@ feel free to contact creative.
         - #BLOG
       -->
 
-      <section class="section blog" id="blog">
+      <!-- <section class="section blog" id="blog">
         <div class="container">
 
           <p class="section-subtitle">Latest News</p>
@@ -562,7 +562,7 @@ feel free to contact creative.
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
     </article>
   </main>
@@ -617,6 +617,12 @@ feel free to contact creative.
   <!-- 
     - ionicon link
   -->
+  <script>
+   function DownloadFile() {
+      window.location.href = "File/DummyResume.pdf";
+    }
+
+</script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 

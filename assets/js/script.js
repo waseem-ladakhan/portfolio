@@ -30,7 +30,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 
-
 /**
  * back to top & header
  */
